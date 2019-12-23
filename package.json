@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ravenfree697/ravenfree-array-iterator/issues"
   },
-  "homepage": "https://github.com/ravenfree697/ravenfree-array-iterator#readme"
+  "homepage": "https://github.com/ravenfree697/ravenfree-array-iterator#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
 }
