@@ -1,9 +1,14 @@
 {
   "name": "ravenfree-array-iterator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Iterator for JS arrays [pre-alpha]",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +21,9 @@
     "url": "https://github.com/ravenfree697/ravenfree-array-iterator/issues"
   },
   "homepage": "https://github.com/ravenfree697/ravenfree-array-iterator#readme",
+  "dependencies": {
+    "simple-statistics": "^7.0.5"
+  },
   "devDependencies": {
     "typescript": "^3.7.4"
   }
